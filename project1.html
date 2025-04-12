@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="csss.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="logo">MyPortfolio</div>
+    <ul>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="hero">
+      <h1>Kattel Krishna</h1>
+      <p>High School Student</p>
+      <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Contact Me</button>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>I'm a high school student passionate about coding, design, and creativity. I enjoy building fun, practical things with HTML, CSS, and a bit of JavaScript!</p>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul class="cards">
+      <li>
+        <h3>Digital art competition winner</h3>
+        <p>Entered a Phillipinos art competition online and placed first.</p>
+      </li>
+      <li>
+        <h3>Built My Website</h3>
+        <p>Created a portfolio from scratch using HTML & CSS.</p>
+      </li>
+      <li>
+        <h3>Placed 3rd in long jump and 100m sprint.</h3>
+        <p>In a loc tournament.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="kattelkrishna147@gmail.com">kattelkrishna147@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/kattelkrishna" target="_blank">https://github.com/kattelkrishna</a></p>
+    <button onclick="alert('Thank you for reaching out!')">Say Hello 👋</button>
+  </section>
+  
+
+  <footer>
+    <p>The End</p>
+  </footer>
+  
+</body>
+</html>
